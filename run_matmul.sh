@@ -6,7 +6,6 @@
 #SBATCH --mem=8G
 #SBATCH --cpus-per-task=4
 #SBATCH --gres=gpu:1
-#SBATCH --partition=gpu
 
 # Load required modules
 module load anaconda3
